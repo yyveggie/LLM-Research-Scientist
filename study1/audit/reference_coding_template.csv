@@ -1,0 +1,1 @@
+model,topic,breadth,breadth_level,conversation_turn,reference_order,raw_reference_text,citation_text,title,authors,year,journal,doi,summary,correctness,is_hallucination,is_error,is_complete,relevance,acknowledged_as_fiction,admitted_no_citation_found,citation_count_coder_1,citation_count_coder_2,citation_count_composited,coder,notes

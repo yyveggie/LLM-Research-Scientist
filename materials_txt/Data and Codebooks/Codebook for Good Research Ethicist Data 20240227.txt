@@ -1,0 +1,17 @@
+Codebook for Lehr “Main Research Ethicist Data 20240227”
+
+The purpose of this document is to offer guidance for interpreting the variables from the publicly available data from Lehr et al.’s Supplementary “Good Research Ethicist” study.  The publicly shared dataset has been collapsed to the level of the chat, as was done for analysis. Raw data (at level of the individual response and individual rubric item) may be requested from Steve Lehr.
+
+Response ID – This column contains a unique ID to identify each response. Note: This ID does not map with the numbering in the publicly posted transcripts. If one wishes to map to this document, it may be done using “Full Response”.
+
+Vignette – This column describes which vignette topic was described to ChatGPT. Numbering aligns with that used in the descriptions found in the article’s Supporting Information, while the words briefly describe the topic.
+
+GPT Version – This column contains information on the ChatGPT model (4 versus 3.5) which generated the response.
+
+Full Response – This column contains ChatGPT’s full response to the protocol provided in this chat.
+
+Coding (Steve) – This column contains the total number of points from the relevant rubric awarded to this response by Steve Lehr.
+
+Coding (Anya) – This column contains the total number of points from the relevant rubric awarded to this response by Anya Vedantambe.
+
+Coding (Composited) – This column contains the mean average of Steve Lehr’s and Anya Vedantambe’s coding.

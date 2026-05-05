@@ -1,0 +1,47 @@
+Codebook for Lehr “Main Research Ethicist Data 20240227”
+
+The purpose of this document is to offer guidance for interpreting the variables from the publicly available data from Lehr et al.’s Main GPT as Research Ethicist study.  The publicly shared dataset has been collapsed to the level of the chat, as was done for analysis. Raw data (at level of the individual response and individual rubric item) may be requested from Steve Lehr.
+
+Response ID – This column contains a unique ID to identify each response. Note: This ID does not map with the numbering in the publicly available transcripts. If one wishes to map to this document, it may be done using “Full Response” variable or by a combination of the variables “GPT Version”, “Vignette”, “Condition” and “Prompt”.
+
+GPT Version – This column contains information on the ChatGPT model (4 versus 3.5) which generated the response.
+
+Vignette – This column describes which vignette topic was described to ChatGPT. Numbering aligns with that used in the descriptions found in the article’s Supporting Information, while the words briefly describe the topic.
+
+Condition – This column describes which version of the relevant vignette (Blatant vs. Subtle) was described to ChatGPT in this chat.
+
+Prompt – This column contains a brief description of which initial prompt was used when asking ChatGPT to provide feedback on the research protocol.
+
+Full Response – This column contains ChatGPT’s full response to the protocol provided in this chat.
+
+Response (Abridged) – This column contains the sometimes-abridged version of the response reviewed by the coders.  Note that this response will be almost identical to the Full Response, except that in some cases information that could identify the prompt condition but was not otherwise relevant was removed.
+
+Coding (Steve) – This column contains the total number of points from the relevant rubric awarded to this response by Steve Lehr.
+
+Coding (Anya) – This column contains the total number of points from the relevant rubric awarded to this response by Anya Vedantambe.
+
+Coding (Composited) – This column contains the mean average of Steve Lehr’s and Anya Vedantambe’s coding.
+
+Pro_vsAnti_OpenScience – This column contains “0” if the initial prompt contained an anti-open science argument, and a “1” if it contains a pro-open science argument.
+
+Verbose_vsConcise – This column contains a “0” if the initial prompt contained a request for concise feedback, and a 1 if it contained a request for detailed/verbose feedback.
+
+Low_vsHigh_RejectionSensitivity – This column contained a “0” if the initial prompt indicated that the researcher was highly sensitive to rejection, and a “1” if it indicated that the researcher was not sensitive to rejection.
+
+Low_vsHigh_Status – This column contains a “0” if the initial prompt indicated that the researcher was experienced and respected, and a “1” if it indicated that the researcher was a novice.
+
+Simohnson_vsStapel – This column contains a “0” if the initial prompt requested ChatGPT impersonate Diederik Stapel, and a “1” if it requested it imitate Uri Simonsohn.
+
+Concerned_vsNot_pHacking – This column contains a “0” if the initial prompt requested ChatGPT act like someone who is not concerned about issues like p-hacking and open science, and a “1” if it asked it to consider these issues.
+
+Concerned_vsNoMention_pHacking – This column contains a “0” if the initial prompt requested ChatGPT include no references to p-hacking in its response, and a “1” if it asked it to consider issues around p-hacking and open science.
+
+Low_vsHigh_TheoryProt – This column contains a “0” if the initial prompt indicated the researcher was highly attached to their theory, and a “1” if it indicated that the researcher was not.
+
+Basic_StrongvsLightTypical – This column contains a “0” if the initial prompt contained a version of the basic prompt (1 or 2 in the materials) that asked for “feedback” or “feedback and constructive criticism”, and “1” if it followed up by requesting it be extra critical.
+
+AntiJB_vsJB – This column contains a 0 if the initial prompt requested ChatGPT do one of the following: Imitate Stapel, Include no mentions of p-hacking, or pretend not to be concerned about issues like p-hacking or open science.  It contained a 1 if the initial prompt requested it either: imitate Simonsohn, or carefully consider issues around p-hacking and open science.
+
+DrawsAttentionToPHacking – This column contains a 0 if the initial prompt did not in any manner draw attention to research ethics, and a 1 if it did.
+
+DrawsNegAttentionResEth_vsNoAtt – This column contains a 0 if the initial prompt did not in any manner draw attention to research ethics.  It contains a 1 if this prompt does draw attention to research ethics, but does so in the context of acting ChatGPT to behave unethically (e.g. imitate Stapel, do not mention p-hacking).

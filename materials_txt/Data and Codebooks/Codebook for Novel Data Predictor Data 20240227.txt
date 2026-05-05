@@ -1,0 +1,153 @@
+Codebook for GPT as Novel Data Predictor Study
+
+The purpose of this document is to offer guidance for interpreting the variables from the publicly posted data from Lehr et al.’s GPT as Novel Data Predictor study.  All “Real” numbers by country are drawn from the supplemental materials of Charlesworth et al. (2021).
+
+Reference:
+
+T. E. S. Charlesworth, M. Navon, Y. Rabinovich, N. Lofaro, B. Kurdi, The project implicit international dataset: Measuring implicit and explicit social group attitudes and stereotypes across 34 countries (2009-2019). Behav. Res. Methods 55, 1413-1440 (2023).
+
+Note: Unless otherwise noted, higher scores on all sexuality attitudes reflect a higher implicit or explicit preference for Straight over Gay.  Higher scores on all age attitudes reflect a higher implicit or explicit preference for Young over Old.  Higher scores on all gender stereotypes reflect a higher implicit or explicit association of Male with Science (and Female with Liberal Arts) compared to Male with Liberal Arts (and Female with Science).
+
+Variables:
+
+Country – This is the country (or region) for which ChatGPT was estimating average levels of explicit or implicit attitudes and stereotypes.
+
+Sexuality - Avg. D (Real) – This is the country’s real measured average implicit sexuality attitudes, used for analysis of the correlations between ChatGPT’s predictions and real-world results.
+
+Sexuality Avg. Explicit (Real) - This is the country’s real measured average explicit sexuality attitudes, used for analysis of the correlations between ChatGPT’s predictions and real-world results.
+
+Sexuality Avg. Therm (Real) – This is the country’s real measured average explicit sexuality attitudes, using a different measure (feeling thermometers), which ChatGPT was not asked to predict.  These data are included here and in the correlation tables for completeness but were not otherwise analyzed in this article.
+
+Age - Avg. D (Real) – This is the country’s real measured average implicit age attitudes, used for analysis of the correlations between ChatGPT’s predictions and real-world results.
+
+Age Avg. Explicit (Real) - This is the country’s real measured average explicit age attitudes, used for analysis of the correlations between ChatGPT’s predictions and real-world results.
+
+Age Avg. Therm (Real) – This is the country’s real measured average explicit age attitudes, using a different measure (feeling thermometers), which ChatGPT was not asked to predict.  These data are included here and in the correlation tables for completeness but were not otherwise analyzed in this article.
+
+Gend - Avg. D (Real) – This is the country’s real measured average implicit gender science/liberal arts stereotypes, used for analysis of the correlations between ChatGPT’s predictions and real-world results.
+
+Gend Avg. Explicit (Real) - This is the country’s real measured average explicit gender science/liberal arts stereotypes, used for analysis of the correlations between ChatGPT’s predictions and real-world results.
+
+Gend Avg. Therm (Real) - This is the country’s real measured average explicit gender science/liberal arts stereotypes, using a different measure (feeling thermometers), which ChatGPT was not asked to predict.  These data are included here and in the correlation tables for completeness but were not otherwise analyzed in this article.
+
+GPT 3.5 impl Sex r1 – This is GPT-3.5’s 1st prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 3.5 impl Sex r2 – This is GPT-3.5’s 2nd prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 3.5 impl Sex r3 – This is GPT-3.5’s 3rd prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 3.5 impl Sex r4 – This is GPT-3.5’s 4th prediction of the average levels of implicit sexuality bias in each country.  NOTE: This set of predictions was highly and negatively correlated with all other GPT-3.5 predictions of sexuality attitudes.  For main analysis, this was therefore assumed to be an error in stated direction of the D-score, and was thus reverse scored.
+
+GPT 3.5 impl Sex r5 – This is GPT-3.5’s 5th prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 3.5 expl Sex r1 - This is GPT-3.5’s 1st prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 3.5 expl Sex r2 - This is GPT-3.5’s 2nd prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 3.5 expl Sex r3 - This is GPT-3.5’s 3rd prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 3.5 expl Sex r4 - This is GPT-3.5’s 4th prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 3.5 expl Sex r5 - This is GPT-3.5’s 5th prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 3.5 impl Age r1 (Raw) – This is GPT-3.5’s 1st prediction of the average levels of implicit age bias in each country. NOTE: GPT-3.5 stated that it had scored these in the opposite of the typical direction.  A reverse-scored version – “GPT 3.5 impl Age r1 (Reversed by GPT)” – was thus used in analysis.
+
+GPT 3.5 impl Age r1 (Reversed by GPT) – This  is GPT-3.5’s 1st prediction of the average levels of implicit age bias in each country. NOTE: This is the version reverse-scored for analysis.
+
+GPT 3.5 impl Age r2 – This is GPT-3.5’s 2nd prediction of the average levels of implicit age bias in each country.
+
+GPT 3.5 impl Age r3 (Raw) – This is GPT-3.5’s 3rd prediction of the average levels of implicit age bias in each country. NOTE: GPT-3.5 stated that it had scored these in the opposite of the typical direction.  A reverse-scored version – “GPT 3.5 impl Age r1 (Reversed by GPT)” – was thus used in analysis.
+
+GPT 3.5 impl Age r3 (Reversed by GPT) – This is GPT-3.5’s 3rd prediction of the average levels of implicit age bias in each country. NOTE: This is the version reverse-scored for analysis.
+
+GPT 3.5 impl Age r4 – This is GPT-3.5’s 4th prediction of the average levels of implicit age bias in each country.
+
+GPT 3.5 impl Age r5 – This is GPT-3.5’s 5th prediction of the average levels of implicit age bias in each country.
+
+GPT 3.5 expl Age r1 – This is GPT-3.5’s 1st prediction of the average levels of explicit age bias in each country.
+
+GPT 3.5 expl Age r2 – This is GPT-3.5’s 2nd prediction of the average levels of explicit age bias in each country.
+
+GPT 3.5 expl Age r3 – This is GPT-3.5’s 3rd prediction of the average levels of explicit age bias in each country.
+
+GPT 3.5 expl Age r4 – This is GPT-3.5’s 4th prediction of the average levels of explicit age bias in each country.
+
+GPT 3.5 expl Age r5 – This is GPT-3.5’s 5th prediction of the average levels of explicit age bias in each country.
+
+GPT 3.5 impl Gen r1 – This is GPT-3.5’s 1st prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 impl Gen r2 – This is GPT-3.5’s 2nd prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 impl Gen r3 – This is GPT-3.5’s 3rd prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 impl Gen r4 – This is GPT-3.5’s 4th prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 impl Gen r5 – This is GPT-3.5’s 5th prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 expl Gen r1 – This is GPT-3.5’s 1st prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 expl Gen r2 – This is GPT-3.5’s 2nd prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 expl Gen r3 – This is GPT-3.5’s 3rd prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 expl Gen r4 – This is GPT-3.5’s 4th prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 3.5 expl Gen r5 – This is GPT-3.5’s 5th prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 impl Sex r1 – This is GPT-4’s 1st prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 4 impl Sex r2 – This is GPT-4’s 2nd prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 4 impl Sex r3 – This is GPT-4’s 3rd prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 4 impl Sex r4 – This is GPT-4’s 4th prediction of the average levels of implicit sexuality bias in each country.
+
+GPT 4 impl Sex r5 – This is GPT-4’s 5th prediction of the average levels of implicit sexuality bias in each country.
+GPT 4 expl Sex r1 – This is GPT-4’s 1st prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 4 expl Sex r2 – This is GPT-4’s 2nd prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 4 expl Sex r3 – This is GPT-4’s 3rd prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 4 expl Sex r4 – This is GPT-4’s 4th prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 4 expl Sex r5 – This is GPT-4’s 5th prediction of the average levels of explicit sexuality bias in each country.
+
+GPT 4 impl Age r1 – This is GPT-4’s 1st prediction of the average levels of implicit age bias in each country.
+
+GPT 4 impl Age r2 – This is GPT-4’s 2nd prediction of the average levels of implicit age bias in each country.
+
+GPT 4 impl Age r3 – This is GPT-4’s 3rd prediction of the average levels of implicit age bias in each country.
+
+GPT 4 impl Age r4 – This is GPT-4’s 4th prediction of the average levels of implicit age bias in each country.
+
+GPT 4 impl Age r5 – This is GPT-4’s 5th prediction of the average levels of implicit age bias in each country.
+
+GPT 4 expl Age r1 – This is GPT-4’s 1st prediction of the average levels of explicit age bias in each country.
+
+GPT 4 expl Age r2 – This is GPT-4’s 2nd prediction of the average levels of explicit age bias in each country.
+
+GPT 4 expl Age r3 – This is GPT-4’s 3rd prediction of the average levels of explicit age bias in each country.
+
+GPT 4 expl Age r4 – This is GPT-4’s 4th prediction of the average levels of explicit age bias in each country.
+
+GPT 4 expl Age r5 – This is GPT-4’s 5th prediction of the average levels of explicit age bias in each country.
+GPT 4 impl Gen r1 – This is GPT-4’s 1st prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 impl Gen r2 – This is GPT-4’s 2nd prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 impl Gen r3 – This is GPT-4’s 3rd prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 impl Gen r4 – This is GPT-4’s 4th prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 impl Gen r5 – This is GPT-4’s 5th prediction of the average levels of implicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 expl Gen r1 – This is GPT-4’s 1st prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 expl Gen r2 – This is GPT-4’s 2nd prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 expl Gen r3 – This is GPT-4’s 3rd prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 expl Gen r4 – This is GPT-4’s 4th prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.
+
+GPT 4 expl Gen r5 – This is GPT-4’s 5th prediction of the average levels of explicit gender science/liberal arts stereotypes in each country.

@@ -1,0 +1,51 @@
+id,text
+1a-b,"•	Did it draw attention to the issue of making decisions about data collection (stopping/starting) by examining data part-way through collection?
+	•	Did it provide advice (e.g. power analysis, sticking to a pre-decided sample size, not testing part-way through collection) that mitigates the issues around stopping/starting data collection based on data examination during collection?
+	•	Did it draw attention to the issue of testing different potential variables/moderators, creating problems of multiple comparisons or increasing potential for type 1 errors?
+	•	Did it provide advice (e.g. corrections for multiple comparisons, deciding hypothesized moderators in advance) that mitigates the issues around multiple comparisons?
+	•	Did it draw attention to the issue of HARKing or otherwise ignoring the exploratory nature of certain findings?
+	•	Did it provide advice (e.g. clear delineation of exploratory analyses, pre-registering hypotheses) that mitigates the problem of HARKing?
+	•	Did it draw attention to the problem of suppressing null results in reporting?
+	•	Did it provide advice (e.g. reporting all results) that mitigates the issue of suppressing null results?
+	•	Did it suggest further replication of results?
+	•	Did it suggest pre-registration or other forms of commitment to pre-decided methodological strategies?"
+2a-b,"•	Did it draw attention to the issue of ignoring or suppressing pilot studies?
+	•	Did it provide advice (e.g. discussing pilot research, publishing all results) that mitigates the issue of ignoring or suppressing pilot studies?
+	•	Did it draw attention to the issue of making inappropriate posthoc exclusions of participants?
+	•	Did it provide advice (e.g. not making exclusions, deciding exclusions in advance) that mitigates the issue of inappropriate posthoc exclusions?
+	•	Did it draw attention to the issue of adding further subjects to studies when statistically significant results are not initially attained?
+	•	Did it provide advice (e.g. power analysis, sticking to pre-decided sample, not testing part-way through collection) that mitigates the issue of adding subjects to a study when not seeing significant results?
+	•	Did it draw attention to the issue of reporting marginal results as if they’d met thresholds for significance?
+	•	Did it provide advice (e.g. reporting exact p-values, not rounding down) that mitigates the issue or reporting marginal results as if they were significant?
+	•	Did it suggest further replication of results?
+	•	Did it suggest pre-registration or other forms of commitment to pre-decided methodological strategies?"
+3a-b,"•	Did it draw attention to the issue of ignoring or suppressing outcome variables that didn’t lead to favorable results?
+	•	Did it provide advice (e.g. reporting on all possible outcome variables) that mitigates the issue of ignoring or suppressing unfavorable outcome variables?
+	•	Did it draw attention to the issue of excluding chunks of data that did not fit results?
+	•	Did it provide advice (e.g. including all data, deciding exclusions a-priori and/or clearly reporting and defending exploratory exclusions) that mitigates the issue of inappropriately excluding data?
+	•	Did it draw attention to the issue of cycling through many potential covariates until finding ones that yielded desirable results?
+	•	Did it provide advice (e.g. corrections for multiple comparisons, hypothesizing covariates in advance) that mitigates the issue of examining many potential covariates?
+	•	Did it draw attention to the issue of potentially violating statistical assumptions (e.g. issues around overfitting, multicollinearity)? – (NOTE: During coding, we decided that discussion of things like the variables having potentially mediating roles also captured the fundamental concern here: That an oversimplified view of potentially correlated covariates was problematic.  Similarly, we decided NOT to give GPT credit for highlighting needs to check for assumptions like homoskedasticity or linearity, as these are – though are important – not related to the actual bad practice in the vignette.)
+	•	Did it provide advice (e.g. split samples, checks for multicollinearity) that mitigates issues around potentially violating statistical assumptions?
+	•	Did it suggest replications of results in other data or contexts and/or urge caution about result generalizability?
+	•	Did it suggest pre-registration or other forms of commitment to pre-decided methodological strategies?"
+1c,"•	Does GPT draw attention to the researchers’ appropriate handling of exploratory findings?
+	•	Does GPT draw attention to the researchers’ decision to invite feedback from commentators who might be critical of their work?
+	•	Does GPT draw attention to the researchers’ use of large samples based on power analysis (power analysis should be mentioned)?
+	•	Does GPT draw attention to the researchers’ decision to pre-register their studies?
+	•	Does GPT draw attention to the researchers’ high number of replications?
+	•	Does GPT draw attention in particular to the researchers’ decision to have outside research groups conduct some of these replications?
+	•	Does GPT draw attention to the researchers’ appropriate use of corrections for multiple comparisons?
+	•	Does it draw attention to the fact that the researchers invited preprint review of their work?
+	•	Does GPT draw attention to the researchers’ embrace of Open Science practices, such as making their methods and stimuli publicly available for easier replication?
+	•	Does GPT draw attention to the researchers’ decision to meta-analyze their results and/or search for unpublished null results that should be included?"
+2c,"•	Does it draw attention to the researchers’ intent to publish all results – even failed pilots?
+	•	Does it draw attention to the researchers’ use of social media (blogs and a wiki) to communicate both successes and failures and/or to push for Open Science processes?
+	•	Does it draw attention to the researchers’ appropriate treatment and framing of exploratory results?
+	•	Does it draw attention to the researchers’ appropriate use of corrections for multiple comparisons?
+	•	Does it draw attention to the researchers’ use of power analysis to decide sample sizes in advance of conducting their studies?
+	•	Does it draw attention to the fact that the researchers pre-registered many of their studies?
+	•	Does it draw attention to the fact that the researchers have invited other groups to collaborate on the project and more rigorously replicate results?
+	•	Does it draw attention to the researchers’ replications of their results?
+	•	Does it draw attention to the researchers’ use of an outside statistical consultant to validate the correctness of their analysis methods?
+	•	Does it draw attention to the fact that the researchers invited preprint review of their work and/or requested review from a skeptical research group?"

@@ -1,0 +1,20 @@
+# Runtime outputs
+outputs/
+**/outputs/
+
+# Original large data/code package excluded from this reproduction repo
+【data and code】chatgpt-as-research-scientist-probing-gpt-s-capabilities-as-a-research-librarian-research-ethicist-data/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local secrets
+.env
+.env.*
