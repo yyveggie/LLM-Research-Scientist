@@ -56,21 +56,6 @@ python3 reproduce.py materials
 - Study 3：4 组 data-generator 词对数据
 - Study 4：默认 6 个 prediction tasks × 5 次重复
 
-## 不调用 API 的 dry run
-
-```bash
-python3 reproduce.py study1 --dry-run --limit 1 --max-followups 1
-python3 reproduce.py study2 --dry-run --limit 1
-python3 reproduce.py study3 --dry-run --limit 1
-python3 reproduce.py study4 --dry-run --limit 1 --repeats 1
-```
-
-输出文件为 JSONL，默认保存在：
-
-```text
-outputs/
-```
-
 ## Study 1：Research Librarian
 
 Study 1 已经被单独整理到：
